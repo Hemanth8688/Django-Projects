@@ -1,0 +1,18 @@
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+}
+img{
+    height:190px;
+    width:300px;
+    border:2px solid black;
+}
+a{
+    color:green;
+}
+div{
+    display:flex;
+    justify-content: space-between;
+}

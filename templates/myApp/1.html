@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+{%load static%}  <!--This is known as Expression-->
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static "css/1.css" %}">
+    <title></title>
+</head>
+<body bgcolor="skyblue">
+    <center>
+        <h1><u>{{name}}'s Favourites</u></h1>
+    </center>
+    <div>
+        <h2>Player:{{player}}</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Chris_Gayle">Cilck Here</a></h3>
+        <img src="{% static "images/gayle.jpg" %}" alt="not available">
+    </div>
+    <br><br>
+    <div>
+        <h2>Animal:{{animal}}</h2>
+        <h3><a href="https://en.wikipedia.org/wiki/Tiger">Click Here</a></h3>
+        <img src="{% static "images/tiger.jpg" %}" alt="not available">
+    </div>
+    <br><br>
+    <div>
+        <h2>Subject:{{subject}}</h2>
+        <h3><a href="https://www.python.org/">Click Here</a></h3>
+        <img src="{% static "images/python.jpg" %}" alt="not available">
+    </div>
+</body>
+</html>
